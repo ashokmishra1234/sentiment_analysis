@@ -1,6 +1,12 @@
 # 🧠 Smart NLP Text Analyzer API
 
-A simple REST API built with **FastAPI** and **NLP** techniques to analyze text — sentiment, keywords, and summarization.
+A simple REST API built with **FastAPI** and **NLP** techniques to analyze text — sentiment, keywords, and summarization, complete with a **Streamlit** frontend interface.
+
+---
+
+## 🌐 Live Streamlit Application
+**[Click Here to view the deployed Streamlit App](https://sentimentanalysis-fastapi.streamlit.app/)** 
+*(Update this URL with your actual deployed Streamlit Community Cloud link)*
 
 ---
 
