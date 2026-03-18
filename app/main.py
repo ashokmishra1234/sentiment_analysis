@@ -19,7 +19,9 @@ from app.predict import predict_sentiment, predict_keywords, predict_summary
 from app.train import download_nltk_resources
 
 # ─── Download NLTK resources on startup ──────────────────────────────────────
-download_nltk_resources()
+@app.on_event("startup")
+def startup_event():
+    download_nltk_resources()
 
 # ─── FastAPI App ──────────────────────────────────────────────────────────────
 app = FastAPI(
