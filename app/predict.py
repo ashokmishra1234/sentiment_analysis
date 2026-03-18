@@ -14,7 +14,7 @@ import numpy as np
 from textblob import TextBlob
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
-from train.train import get_tfidf_vectorizer
+from train import get_tfidf_vectorizer
 
 
 # ─── SENTIMENT PREDICTION ─────────────────────────────────────────────────────
